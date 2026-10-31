@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "725389255854",
+    "project_id": "travelwithalina-76b9d",
+    "storage_bucket": "travelwithalina-76b9d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725389255854:android:1bf0bf1ea4f4c8b775393f",
+        "android_client_info": {
+          "package_name": "com.travelwithalina.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI9_9snx4LRGSDUjQdZuD4d8KYYQiZ2c8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

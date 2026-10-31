@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Travel with Alina",
+    "slug": "travel-with-alina",
+    "version": "1.0.51",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "android": {
+      "versionCode": 51,
+      "package": "com.travelwithalina.app",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.travelwithalina.app",
+      "supportsTablet": false,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleDisplayName": "Travel with Alina",
+        "NSCameraUsageDescription": "Travel with Alina uses the camera so you can take a profile picture for your account.",
+        "NSPhotoLibraryUsageDescription": "Travel with Alina uses your photo library so you can choose a profile picture for your account.",
+        "NSPhotoLibraryAddUsageDescription": "Travel with Alina saves images to your photo library only when you choose to save them.",
+        "NSMicrophoneUsageDescription": "Travel with Alina uses the microphone only when you choose to record media with audio."
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraMavenRepos": ["https://android-sdk.is.com/"]
+          }
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-2672884609938614~2397623691",
+          "iosAppId": "ca-app-pub-2672884609938614~2397623691"
+        }
+      ],
+      "./plugins/withAdMobMediationAndroid",
+      "expo-notifications",
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.725389255854-a01uskb9hcok7abk5ujh8e1pnn2pub10"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c39e33d9-8631-4ff1-b779-ff6a36e45f27"
+      }
+    }
+  }
+}

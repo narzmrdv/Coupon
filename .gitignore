@@ -1,0 +1,37 @@
+node_modules/
+.yarn/cache/
+.yarn/install-state.gz
+.idea/
+.env
+.env.*
+!.env.example
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.keystore
+keystore.properties
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+_tpl_extract/
+_repro_tpl/
+_t/
+
+ios
+android
+
+# macOS
+.DS_Store
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+# Firebase Admin SDK service account keys (server-side secret)
+*-firebase-adminsdk-*.json
+
+# Backups
+*.bak
